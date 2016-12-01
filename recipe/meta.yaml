@@ -12,7 +12,7 @@ source:
 build:
   entry_points:
     - bob_video_test.py = bob.io.video.script.video_test:main
-  number: 0
+  number: 1
   skip: true  # [win]
 
 requirements:
@@ -26,7 +26,7 @@ requirements:
     - bob.core
     - bob.io.base
     - ffmpeg 2.8.*
-    - boost 1.61.*
+    - boost 1.62.*
     - pkg-config
 
   run:
@@ -37,7 +37,7 @@ requirements:
     - bob.core
     - bob.io.base
     - ffmpeg 2.8.*
-    - boost 1.61.*
+    - boost 1.62.*
 
 test:
   commands:
